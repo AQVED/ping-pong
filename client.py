@@ -5,6 +5,7 @@ from threading import Thread
 
 # ---ПУГАМЕ НАЛАШТУВАННЯ ---
 WIDTH, HEIGHT = 800, 600
+
 init()
 screen = display.set_mode((WIDTH, HEIGHT))
 clock = time.Clock()
